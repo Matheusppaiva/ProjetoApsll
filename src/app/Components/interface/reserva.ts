@@ -1,10 +1,12 @@
 export interface Reserva {
-  nome: string,
+  id?: number
+  name: string,
   cpf: number,
-  entrada: number,
-  saida: number,
-  pagamento: String,
-  quantidadePessoas: number,
+  entrada: string,
+  saida: string,
+  pagamento: string,
+  pessoas: number
+  preferencia: string
 
 
 }

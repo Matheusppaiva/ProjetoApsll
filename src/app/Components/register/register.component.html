@@ -1,0 +1,22 @@
+<div class="body">
+
+  <div class="login">
+    <mat-spinner class="spinner" *ngIf="loading" diameter="50"></mat-spinner>
+
+    <form *ngIf="!loading" [formGroup]="form" (ngSubmit)="entrar()">
+      <img src="../../../assets/img/chave-do-hotel.png" width="50%" alt="">
+      <h1 class="h3 mb-3 fw-normal">Cadastrar</h1>
+      <mat-form-field class="ancho" appearance="fill">
+          <mat-label>Usuario</mat-label>
+          <input type="text" matInput autocomplete="off" formControlName="usuario">
+        </mat-form-field>
+        <mat-form-field class="ancho" appearance="fill">
+          <mat-label>Senha</mat-label>
+          <input type="password" matInput autocomplete="off" formControlName="password">
+        </mat-form-field>
+        <br>
+      <button type="submit" class="ancho button" mat-raised-button color="primary">Cadastrar</button>
+      <button routerLink="/login" type="submit" class="ancho button" mat-raised-button color="primary">Retornar</button>
+    </form>
+  </div>
+</div>

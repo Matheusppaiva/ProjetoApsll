@@ -1,0 +1,27 @@
+<app-navbar></app-navbar>
+<mat-card>
+    <mat-card-title> Atualizar reserva</mat-card-title>
+    <form>
+      <mat-form-field>
+        <input matInput placeholder="Nome" [(ngModel)]="reserva.name" name="name">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Cpf"  [(ngModel)]="reserva.cpf" name="cpf">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Entrada"  [(ngModel)]="reserva.entrada" name="entrada">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Saida"  [(ngModel)]="reserva.saida" name="saida">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Pagamento"  [(ngModel)]="reserva.pagamento" name="pagamento">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Pessoas"  [(ngModel)]="reserva.pessoas" name="pessoas">
+      </mat-form-field>
+
+    </form>
+</mat-card>
+
+

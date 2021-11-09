@@ -1,0 +1,101 @@
+{
+  "reserva": [
+    {
+      "id": 1,
+      "name": "teste",
+      "cpf": 3123123,
+      "entrada": "31/09/23",
+      "saida": "23/09/24",
+      "pagamento": "cartão",
+      "pessoas": 5
+    },
+    {
+      "name": "02",
+      "cpf": 312312,
+      "entrada": "31/12/23",
+      "saida": "23/09/12",
+      "pagamento": "cartão",
+      "pessoas": 59,
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "name": "matheus",
+      "cpf": 321321,
+      "entrada": "22/08",
+      "saida": "23/10",
+      "pagamento": "Dinheiro",
+      "pessoas": 59,
+      "id": 5
+    },
+    {
+      "name": "Carlos",
+      "cpf": "21312321",
+      "entrada": "22/08",
+      "saida": "23/09",
+      "pagamento": "Dinheiro",
+      "pessoas": "312321",
+      "id": 6
+    },
+    {
+      "name": "professro",
+      "cpf": "321312421",
+      "entrada": "22/11/2021",
+      "saida": "02/12/2021",
+      "pagamento": "Dinheiro",
+      "pessoas": "2",
+      "id": 7
+    },
+    {
+      "name": "excluir",
+      "cpf": "21312321",
+      "entrada": "22/11/2021",
+      "saida": "02/12/2021",
+      "pagamento": "Dinheiro",
+      "pessoas": "02",
+      "id": 8
+    },
+    {
+      "name": "",
+      "cpf": 0,
+      "entrada": "",
+      "saida": "",
+      "pagamento": "",
+      "pessoas": 0,
+      "id": 9
+    },
+    {
+      "name": "matheus",
+      "cpf": "3123123",
+      "entrada": "22/08",
+      "saida": "23/09",
+      "pagamento": "Dinheiro",
+      "pessoas": "02",
+      "preferencia": "vaga na garagem",
+      "id": 10
+    },
+    {
+      "name": "matheus",
+      "cpf": "21312321",
+      "entrada": "22/08",
+      "saida": "23/09",
+      "pagamento": "Dinheiro",
+      "pessoas": "312321",
+      "preferencia": "agua",
+      "id": 11
+    }
+  ],
+  "Users": [
+    {
+      "id": "1",
+      "name": "matheus",
+      "password": "1234",
+      "email": "matheus@hotmail.com"
+    }
+  ]
+}

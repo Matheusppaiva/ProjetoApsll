@@ -17,10 +17,23 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatCardModule} from '@angular/material/card';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatTableModule} from '@angular/material/table';
+
+import {MatTooltipModule} from '@angular/material/tooltip';
+
+
 
 
 //components
 import { LoginComponent } from './Components/login/login.component';
+
+
+import { HttpClientModule } from '@angular/common/http';
+import { RegisterComponent } from './Components/register/register.component';
+
+
+
 
 
 
@@ -33,6 +46,8 @@ import { LoginComponent } from './Components/login/login.component';
   declarations: [
     AppComponent,
     LoginComponent,
+    RegisterComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -47,7 +62,9 @@ import { LoginComponent } from './Components/login/login.component';
     ReactiveFormsModule,
     MatSnackBarModule,
     MatProgressSpinnerModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule,
+    MatDatepickerModule
 
   ],
   providers: [],

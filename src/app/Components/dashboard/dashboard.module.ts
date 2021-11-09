@@ -1,4 +1,4 @@
-import { AppModule } from './../../app.module';
+import { ReservaReadComponent } from './reserva-read/reserva-read.component'
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -24,6 +24,16 @@ import { InicioComponent } from './inicio/inicio.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReservaComponent } from './reserva/reserva.component';
+import { SobreComponent } from './sobre/sobre.component';
+
+
+
+import { HttpClientModule } from '@angular/common/http'
+
+import { FormsModule } from '@angular/forms';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { ReservaUpdateComponent } from './reserva-update/reserva-update.component';
+import { ReservaDeleteComponent } from './reserva-delete/reserva-delete.component';
 
 
 @NgModule({
@@ -33,6 +43,10 @@ import { ReservaComponent } from './reserva/reserva.component';
     NavbarComponent,
     FooterComponent,
     ReservaComponent,
+    SobreComponent,
+    ReservaReadComponent,
+    ReservaUpdateComponent,
+    ReservaDeleteComponent
   ],
   imports: [
     CommonModule,
@@ -47,7 +61,10 @@ import { ReservaComponent } from './reserva/reserva.component';
     MatFormFieldModule,
     MatInputModule,
     MatSnackBarModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    HttpClientModule,
+    FormsModule,
+    MatDatepickerModule
 
   ]
 })
